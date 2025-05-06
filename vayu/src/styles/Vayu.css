@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container {
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-row {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #eef4f5;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.weather-details .temperature {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.weather-details .condition {
+    font-size: 16px;
+    color: #555;
+}
+
+.weather-details .location {
+    font-size: 16px;
+    color: #555;
+}
+
+.local-time {
+    margin: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 6px 0;
+    padding: 8px;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: 10px solid #ccc;
+    border-radius: 6px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 16px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005f8e;
+}
+
+
+/* ----------------Current Weather--------------------- */
+
+
+.forecast-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.forecast-box {
+    flex: 1;
+    min-width: 120px;
+    background-color: #e3f2fd;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
